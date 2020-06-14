@@ -1,30 +1,30 @@
 :main_array_devices_help:
-**Colored Status Indicator** the significance of the color indicator at the beginning of each line in *Array Devices* is as follows:
+**Indicador de estado colorido** O significado do indicador de cor no início de cada linha em *Array Devices* é o seguinte:
 
-<i class='fa fa-circle orb green-orb'></i>Normal operation, device is active.
+<i class='fa fa-circle orb green-orb'></i>Funcionamento normal, o dispositivo está activo.
 
-<i class='fa fa-circle orb grey-orb'></i>Device is in standby mode (spun-down).
+<i class='fa fa-circle orb grey-orb'></i>O dispositivo está em modo de espera (spun-down).
 
-<i class='fa fa-warning orb yellow-orb'></i>Device contents emulated.
+<i class='fa fa-warning orb yellow-orb'></i>Conteúdo do dispositivo emulado.
 
-<i class='fa fa-times orb red-orb'></i>Device is disabled, contents emulated.
+<i class='fa fa-times orb red-orb'></i>O dispositivo está desactivado, conteúdo emulado.
 
-<i class='fa fa-square orb blue-orb'></i>New device.
+<i class='fa fa-square orb blue-orb'></i>Novo dispositivo.
 
-<i class='fa fa-square orb grey-orb'></i>No device present, position is empty.
+<i class='fa fa-square orb grey-orb'></i>Nenhum dispositivo presente, a posição está vazia.
 
-**Identification** is the *signature* that uniquely identifies a storage device. The signature
-includes the device model number, serial number, linux device id, and the device size.
+**Identificação** é a *assinatura* que identifica de forma única um dispositivo de armazenamento. A assinatura
+inclui o número do modelo do dispositivo, o número de série, a identificação do dispositivo linux e o tamanho do dispositivo.
 
-**Temp.** (temperature) is read directly from the device. You configure which units to use on
-the [Display Preferences](Settings/DisplaySettings) page.  We do not read the temperature of spun-down hard
-drives since this typically causes them to spin up; instead we display the `*` symbol.  We also
-display the `*` symbol for SSD and Flash devices, though sometimes these devices do report a valid
-temperature, and sometimes they return the value `0`.
+**Temp.** (temperatura) é lido directamente a partir do dispositivo. Você configura quais as unidades a utilizar
+na [Display Preferences](Settings/DisplaySettings) página. Não lemos a temperatura dos discos rígidos
+desligados, uma vez que iso normalmente volta a ligar os discos; em vez disso, exibimos o símbolo `*'. Também exibimos
+o símbolo `*` para dispositivos SSD e Flash, embora por vezes estes dispositivos reportem uma temperatura válida
+e por vezes devolvem o valor `0'.
 
-**Size, Used, Free** reports the total device size, used space, and remaining space for files.  These
-units are also configured on the [Display Preferences](Settings/DisplaySettings) page.  The
-amount of space used will be non-zero even for an empty disk due to file system overhead.
+**Tamanho, Usado, Livre** informa o tamanho total do dispositivo, o espaço usado e o espaço restante para arquivos. Estas
+Estas unidades também são configuradas na página  [Display Preferences](Settings/DisplaySettings). A quantidade
+de espaço utilizada será diferente de zero mesmo para um disco vazio devido à sobretaxa do sistema de arquivo.
 
 *Note: for a multi-device cache pool, this data is for the entire pool as returned by btrfs.*
 
