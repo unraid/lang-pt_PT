@@ -26,76 +26,76 @@ e por vezes devolvem o valor `0'.
 Estas unidades também são configuradas na página  [Display Preferences](Settings/DisplaySettings). A quantidade
 de espaço utilizada será diferente de zero mesmo para um disco vazio devido à sobretaxa do sistema de arquivo.
 
-*Note: for a multi-device cache pool, this data is for the entire pool as returned by btrfs.*
+*Nota: para um agrupamento de cache multi-dispositivo, estes dados referem-se a todo o agrupamento, tal como indicado pelo btrfs.*
 
-**Reads, Writes** are a count of I/O requests sent to the device I/O drivers.  These statistics may
-be cleared at any time, refer to the Array Status section below.
+**Leituras, Escritas** são uma contagem dos pedidos de I/O enviados para os controladores de I/O do dispositivo. Estas estatísticas podem
+ser apagadas a qualquer momento, consulte a secção Estado do Array abaixo..
 
-**Errors** counts the number of *unrecoverable* errors reported by the device
-I/O drivers. Missing data due to unrecoverable array read errors is filled in on-the-fly using parity
-reconstruct (and we attempt to write this data back to the sector(s) which failed). Any unrecoverable
-write error results in *disabling* the disk.
+**Erros** conta o número de erros * irrecuperáveis* comunicados pelos drivers
+I/O do dispositivo. Os dados em falta devido a erros de leitura de matriz irrecuperáveis são preenchidos em tempo real utilizando a reconstrução
+da paridade (e nós tentamos escrever estes dados de volta para o(s) sector(es) que falhou(s)). Qualquer erro de gravação
+ rrecuperável resulta em *desactivar* o disco..
 
-**FS** indicates the file system detected in partition 1 of the device.
+**FS*** indica o sistema de ficheiros detectado na partição 1 do dispositivo.
 
-**View** column contains a folder icon indicating the device is *mounted*. Click the icon to
-browse the file system.
+A coluna **View** contém um ícone de pasta indicando que o dispositivo está *montado*. Clique no ícone para
+navegar no sistema de ficheiros.
 
-If "Display array totals" is enable on the [Display Preferences](Settings/DisplaySettings) page, a
-**Total** line is included which provides a tally of the device statistics, including the average temperature
-of your devices.
+Se a opção "Display array totals" estiver activa na página [Display Preferences](Settings/DisplaySettings),
+é incluída uma linha **Total*** que fornece uma contagem das estatísticas dos dispositivos, incluindo a temperatura média
+dos seus dispositivos.
 
-The Array must be Stopped in order to change Array device assignments.
+O Array tem de ser parado para se poder mudar as atribuições dos dispositivos do Array.
 
-An Unraid array consists of one or two Parity disks and a number of Data disks. The Data
-disks are exclusively used to store user data, and the Parity disk(s) provides the redundancy necessary
-to recover from disk failures.
+Um Unraid array consiste em um ou dois discos de Paridade e vários discos de dados. Os discos 
+de dados são utilizados exclusivamente para armazenar dados dos utilizadores, e o(s) disco(s) de Paridade
+proporciona(m) a redundância necessária para recuperar de falhas no disco.
 
-Since data is not striped across the array, the Parity disk(s) must be as large, or larger than the largest Data
-disk.  Parity should also be your highest performance drive.
+Uma vez que os dados não são distribuídos na matriz, o(s) disco(s) de Paridade deve(m) ser tão grande(s) ou maior(es) do que o maior disco
+de Dados. A paridade também deve ser o disco com maior desempenho.
 
-Each Data disk has its own file system and can be exported as a
-separate share.
+Cada disco de dados tem o seu próprio sistema de ficheiros e pode ser exportado como uma
+parte separada.
 
-Click on the Device name to configure individual device settings and launch certain utilities.
+Clique no nome do dispositivo para configurar as configurações individuais do dispositivo e iniciar determinados utilitários.
 :end
 
 :main_slots_help:
-**Slots** select the number of device slots in your server designated for Array devices.
-The minimum number of Array slots is 2, and you must have at least one device assigned to the array.
+**Slots** seleccione o número de slots de dispositivos no seu servidor designados para os dispositivos Array.
+O número mínimo de slots de Array é 2, e deve ter pelo menos um dispositivo atribuído a esse Array.
 :end
 
 :cache_devices_help:
-**Colored Status Indicator** the significance of the color indicator at the beginning of each line in *Pool Devices* is as follows:
+**Indicador de estado colorido** O significado do indicador de cor no início de cada linha em *Pool Devices* é o seguinte:
 
-<i class='fa fa-circle orb green-orb'></i>Normal operation, device is active.
+<i class='fa fa-circle orb green-orb'></i>Funcionamento normal, o dispositivo está activo.
 
-<i class='fa fa-circle orb grey-orb'></i>Device is in standby mode (spun-down).
+<i class='fa fa-circle orb grey-orb'></i>O dispositivo está em modo de espera (spun-down).
 
-<i class='fa fa-square orb blue-orb'></i>New device.
+<i class='fa fa-square orb blue-orb'></i>Novo dispositivo.
 
-<i class='fa fa-square orb grey-orb'></i>No device present, position is empty.
+<i class='fa fa-square orb grey-orb'></i>Nenhum dispositivo presente, a posição está vazia.
 
-**Pool Devices** is a single device, or pool of multiple devices, *outside* the Unraid array.  It may be exported for network access just
-like an Array device.  Being outside the Unraid array results in significantly faster write access.
+**Agrupamento de dispositivos*** é um único dispositivo, ou conjunto de múltiplos dispositivos, *fora* do Unraid array. Pode ser exportado para acesso à rede
+tal como um dispositivo array. Não fazendo parte do unRaid Array resulta em um acesso de escrita significativamente mais rápido.
 
-There are two ways to configure the Pool devices:
+Existem duas formas de configurar os dispositivos do agrupamento:
 
-1. As a single device, or
-2. As a multi-device pool.
+1. Como um dispositivo único, ou
+2. Como um agrupamento multi-dispositivo.
 
-When configured as a single device you may format the device using any supported file system (btrfs, reiserfs,
-or xfs).  This configuration offers the highest performance, but at the cost of no data protection - if the
-single pool device fails all data contained on it may be lost.
+Quando configurado como único dispositivo, pode ser formatado utilizando qualquer sistema de ficheiros suportado (btrfs, reiserfs,
+ou xfs). Esta configuração oferece o melhor desempenho, mas à custa de nenhuma protecção de dados - se o
+único dispositivo de agrupamento falhar, todos os dados nele contidos podem ser perdidos.
 
-When configured as a multi-device pool, Unraid OS will automatically select *btrfs-raid1* format (for both data
-and meta-data).  btrfs permits any number of devices to be added to the pool and each copy of data is guaranteed
-to be written to two different devices.  Hence the pool can withstand a single-disk failure without losing data.
+Quando configurado como um agrupamento multi dispositivo, o sistema operativo unRaid seleccionará automaticamente o formato *btrfs-raid1* (tanto para os dados
+como para os meta-dados).  btrfs permite que qualquer número de dispositivos seja acrescentado ao agrupamento e cada cópia de dados é, garantidamente,
+escrita em dois dispositivos diferentes. Assim, o pool pode suportar uma falha de um único disco sem perder dados.
 
-When [User Shares](/Settings/ShareSettings) are enabled, user shares may be configured to
-automatically make use of the Pool device in order to
-speed up writes.  A special background process called the *mover* can be scheduled to run
-periodically to move user share files off the Cache and onto the Array.
+Quando [User Shares](/Settings/ShareSettings) são activados, as partilhas podem ser configuradas para
+utilizar automaticamente o dispositivo de agrupamento de forma a acelerar a escrita
+Um processo especial de fundo chamado *mover* pode ser programado para correr periodicamente
+para mover os ficheiros da partilha para fora da Cache e para o agrupamento de discos.
 :end
 
 :cache_slots_help:
