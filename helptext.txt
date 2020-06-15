@@ -32,7 +32,7 @@ de espaço utilizada será diferente de zero mesmo para um disco vazio devido à
 ser apagadas a qualquer momento, consulte a secção Estado do Array abaixo..
 
 **Erros** conta o número de erros * irrecuperáveis* comunicados pelos drivers
-I/O do dispositivo. Os dados em falta devido a erros de leitura de matriz irrecuperáveis são preenchidos em tempo real utilizando a reconstrução
+I/O do dispositivo. Os dados em falta devido a erros de leitura irrecuperáveis do array são preenchidos em tempo real utilizando a reconstrução
 da paridade (e nós tentamos escrever estes dados de volta para o(s) sector(es) que falhou(s)). Qualquer erro de gravação
  rrecuperável resulta em *desactivar* o disco..
 
@@ -51,7 +51,7 @@ Um Unraid array consiste em um ou dois discos de Paridade e vários discos de da
 de dados são utilizados exclusivamente para armazenar dados dos utilizadores, e o(s) disco(s) de Paridade
 proporciona(m) a redundância necessária para recuperar de falhas no disco.
 
-Uma vez que os dados não são distribuídos na matriz, o(s) disco(s) de Paridade deve(m) ser tão grande(s) ou maior(es) do que o maior disco
+Uma vez que os dados não são distribuídos no array, o(s) disco(s) de Paridade deve(m) ser tão grande(s) ou maior(es) do que o maior disco
 de Dados. A paridade também deve ser o disco com maior desempenho.
 
 Cada disco de dados tem o seu próprio sistema de ficheiros e pode ser exportado como uma
@@ -99,105 +99,105 @@ para mover os ficheiros da partilha para fora da Cache e para o agrupamento de d
 :end
 
 :cache_slots_help:
-**Slots** select the number of device slots in your server designated for Cache devices.
+**Slots*** seleccione o número de slots de dispositivos no seu servidor designados para os dispositivos Cache.
 :end
 
 :boot_device_help:
-Vital array configuration is maintained on the USB Flash device; for this reason, it must remain
-plugged in to your server.  Click on [Flash](/Main/Flash?name=flash) to see the GUID and registration
-information, and to configure export settings.  Since the USB Flash device is formatted using FAT file system,
-it may only be exported using SMB protocol.
+A configuração fundamental do array é mantida no dispositivo USB Flash; por este motivo, ele deve permanecer
+conenctado ao seu servidor.  Clique em [Flash](/Main/Flash?name=flash) para ver a GUID e as informações
+de registo, e para configurar as definições de exportação.  Uma vez que o dispositivo USB Flash é formatado utilizando o sistema de ficheiros FAT,
+só pode ser exportado utilizando o protocolo SMB.
 :end
 
 :array_status_help:
-**Colored Status Indicator** the significance of the color indicator of the *Array* is as follows:
+**Indicador de estado colorido** o significado do indicador de cor do *Array* é o seguinte:
 
-<i class='fa fa-circle orb green-orb'></i>Array is Started and Parity is valid.
+<i class='fa fa-circle orb green-orb'></i>O Array é iniciado e a Paridade é válida.
 
-<i class='fa fa-circle orb grey-orb'></i>Array is Stopped, Parity is valid.
+<i class='fa fa-circle orb grey-orb'></i>O Array está parado, a Paridade é válida.
 
-<i class='fa fa-warning orb yellow-orb'></i>Array is Started, but Parity is invalid.
+<i class='fa fa-warning orb yellow-orb'></i>O Array é iniciado, mas a Paridade é inválida.
 
-<i class='fa fa-warning orb grey-orb'></i>Array is Stopped, Parity is invalid.
+<i class='fa fa-warning orb grey-orb'></i>O Array está parado, a Paridade é inválida.
 
 :end
 
 :array_devices_help:
-#### Assigning Devices
+#### Atribuição de Dispositivos
 
-An unRAID disk array consists of a single parity disk and a number of data disks. The data
-disks are exclusively used to store user data, and the parity disk provides the redundancy necessary
-to recover from any singe disk failure.
+Um unRaid Array consiste de um disco de paridade única e vários discos de dados. Os discos de dados
+são utilizados exclusivamente para armazenar dados dos utilizadores e o disco de paridade fornece a redundância necessária
+para recuperar de qualquer falha de um só disco.
 
-Note that we are careful to use the term *disk* when referring to an array storage device.  We
-use the term *hard drive* (or sometimes just *drive*) when referring to an actual hard disk drive (HDD)
-device. This is because in a RAID system it is possible to read/write an array disk whose corresponding
-hard drive is disabled or even missing! In addition, it is useful to be able to ask, "which device is
-assigned to be the parity disk?"; or, "which device corresponds to disk2?".
+Note que temos o cuidado de usar o termo *disco* quando nos referimos a um dispositivo de armazenamento de array. Nós
+usamos o termo *disco rígido* (ou às vezes apenas *disco*) quando nos referimos a um actual disco rígido (HDD).
+Isto porque num sistema RAID é possível ler/escrever um disco array cujo disco rígido correspondente
+está desactivado ou mesmo ausente! Além disso, é útil poder perguntar, "que dispositivo
+é atribuido como disco de paridade?"; ou, "que dispositivo corresponde ao disco2?".
 
-We therefore need a way to assign hard drives to array disks. This is accomplished here on the
-Main page when the array is stopped. There is a drop-down box for each array disk which lists all the
-unassigned devices. To assign a device simply select it from the list. Each time a device
-assignment is made, the system updates a configuration file to record the assignment.
+Precisamos, portanto, de uma forma de atribuir discos rígidos a discos do array. Isto é realizado aqui na página
+principal quando o array está parado. Cada disco do array tem o seu próprio menu drop-down que lista todos os
+dispositivos não atribuídos. Para a tribuir um dispositivo basta seleccioná-lo da lista. Cada vez que se atrbui
+um novo dispositivo, o sistem actualiza um ficheiro de configuração para guardar a atribuição.
 
 #### Requirements
 
-Unlike traditional RAID systems which stripe data across all the array devices, an unRAID server
-stores files on individual hard drives. Consequently, all file write operations will involve both the
-data disk the file is being written to, and the parity disk. For these reasons,
+Ao contrário dos sistemas RAID tradicionais que armazenam dados em todos os dispositivos do array, um servidor unRaid
+guarda os ficheiros em discos rígidos individuais. Consequentemente, todoas as operações de escrita de ficheiros envolverão
+o disco para o qual os dados estão a ser escritos, assim como o disco de paridade. Por estas razões,
 
-* the parity disk size must be as large or larger than any of the data disks,
+* o tamanho do disco de paridade deve ser tão grande ou superior do que qualquer um dos discos de dados,
 
-and
+e
 
-* given a choice, the parity disk should be the fastest disk in your collection.
+* dada uma escolha, o disco de paridade deve ser o disco mais rápido da sua colecção.
 
-#### Guidelines
+#### Instruções
 
-Here are the steps you should follow when designing your unRAID disk array:
+Aqui estão os passos que você deve seguir para planear o seu unRaid array de discos:
 
-1. Decide which hard drive you will use for parity, and which hard drives you will use for
-data disk1, disk2, etc., and label them in some fashion. Also, find the serial number of each hard
-drive and jot it down somewhere; you will need this information later.
+1. Decida que disco duro irá utilizar para a paridade, e que discos duros irá utilizar como disco de
+dados disk1, disk2, etc., e identifique-os de alguma forma. Além disso, tome note do número de série
+de cada disco; você precisará desta informação mais tarde.
 
-2. Install your hard drive devices, boot unRAID Server and bring up the webGui. If this is a fresh system
-build, then the Main page will show no disks installed. This doesn't mean the system can't detect your
-hard drives; it just means that none have been assigned yet.
+2. Instale os seus discos duros, arranque com o Server unRAID e abra a webGui. Se é um sistema novo,
+a página principal não mostrará nenhum disco instalado. Isto não significa que o sistema não pode detectar os
+discos duros; só quer dizer que ainda nenhuns foram atribuídos.
 
-3. Remember the serial numbers you recored back in step 1? For parity and each data disk, select the
-proper hard drive based on its serial number from the drop down list.
+3. Lembra-se dos múmeros de sério que tomou nota no passo 1? Usando o menu drop-down ao lado dos discos de paridade e de dados,
+seleccione o disco duro para cada caso correspondente ao número de série.
 
 #### Hot Plug
 
-You may also *hot plug* hard drives into your server if your hardware supports it. For example,
-if you are using hard drive cages, you may simply plug them into your server while powered on and
-with array Stopped. Refresh the Main page to have new unassigned devices appear in the assignment
-dropdown lists.
+Você também  pode connectar os discos duros via *hot plug* ao seu servidor, se o hardware suporta a função. Por exemplo,
+se utilizar drive cages, poderá simplesmente ligá-las ao servidor enquanto este estiver ligado e tiver
+o array parado. Actualize a página principal para que os novos dispositivos não atribuidos apareçam nas listas no menu
+drop-down.
 
-#### Next Steps
+#### Próximos passos
 
-Once you have assigned all of your hard drives, refer to the Array Status section below
-and Start the array.
+Depois de ter atribuído todos os seus discos duros, consulte a secção Estado do Array abaixo
+e inicie o array.
 :end
 
 :encryption_help:
-#### Encryption input
+#### Encriptação
 
-With array Stopped, the user can specify a new encryption key. Note that once a device
-is formatted with a particular key it may only be opened using that same key. Changing the encryption key requires
-encrypted devices to be reformatted **resulting in permanent loss of all existing data on those devices.**
+Com o array parado, o utilizador pode especificar uma nova chave de encriptação. Note que quando um dispositivo
+é formatado com uma determinada chave, ele só pode ser aberto usando essa mesma chave. A alteração da chave de
+encriptação requer que os dispositivos encriptados sejam reformatados **resultando em perda permanente de todos os dados existentes nesses dispositivos.**
 
-#### Passphrase
+#### Palavra passe
 
-Enter a passphrase of up to 512 characters. It is highly advisable to only use the 95 printable characters from the
-first 128 characters of the [ASCII table](https://en.wikipedia.org/wiki/ASCII), as they will always have the same binary
-representation. Other characters may have different encoding depending on system configuration and your passphrase will
-not work with a different encoding. If you want a longer passphrase or to include binary data, upload a keyfile instead.
+Introduza uma palavra passe tendo até 512 caracteres. É altamente aconselhável usar apenas os 95 caracteres imprimíveis dos
+primeiros 128 caracteres da [ASCII table](https://en.wikipedia.org/wiki/ASCII), uma vez que terão sempre a mesma representação
+binária. Outros caracteres podem ter codificação diferente dependendo da configuração do sistema e a sua palavra-passe
+não funcionará com uma codificação diferente. Se você quiser uma palavra-passe mais longa ou incluir dados binários, faça o upload de uma keyfile.
 
-Please refer to the [cryptsetup FAQ](https://gitlab.com/cryptsetup/cryptsetup/wikis/FrequentlyAskedQuestions#5-security-aspects)
-for what constitutes a *secure* passphrase.
+Por favor consulte [cryptsetup FAQ](https://gitlab.com/cryptsetup/cryptsetup/wikis/FrequentlyAskedQuestions#5-security-aspects)
+para o que constitui uma palavra-passe *segura*.
 
-**Memorize** this passphrase. **IF LOST, ENCRYPTED CONTENT CANNOT BE RECOVERED!**
+**Memorise** esta palavra-passe. **SE A PERDER, O CONTEÚDO ENCRIPTADO NÃO PODERÁ SER RECUPERADO!**
 
 #### Keyfile
 
