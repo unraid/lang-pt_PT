@@ -1,9 +1,9 @@
 ; Translation Credit.  Will appear in CA's credits
 translationCredit=<Author> (<Language>)
-Cancel=
+Cancel=Cancelar
 
 ; My PSAs / banners
-Happy New Year=
+Happy New Year=Feliz ano novo
 Happy Holidays from Andrew, Tracey, and family=
 Please Enjoy Responsibly=
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
@@ -12,15 +12,15 @@ Community Applications works best when cookies are enabled in your browser Certa
 Backup Server Active Some icons may not appear, and plugin installations may be affected=
 
 ; Sorting Options
-Sorting options=
-Sorting options unavailable=
-Sort By Name Ascending=
-Sort By Name Descending=
-Sort By Downloads=
+Sorting options=Opções de ordenação
+Sorting options unavailable=Opções de ordenação indisponível
+Sort By Name Ascending=Ordenar por nome (ascendente)
+Sort By Name Descending=Ordenar por nome (descendente)
+Sort By Downloads=Ordenar por transferências
 Sort By Trend=
 Sort By Date Added=
 ; Initial disclaimer translations
-Disclaimer=
+Disclaimer=Aviso legal
 All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=
 Every attempt is made to ensure that only safe and compatible applications are present=
 Application Policy=
@@ -36,26 +36,26 @@ Plugin Note=
 Install Plugin Applications=
 
 ; Searches
-Search=
-Please enter search term=
+Search=Pesquisa
+Please enter search term=Introduza um termo de pesquisa
 Click Here To Get More Results From DockerHub=
 No Matching Applications Found On Docker Hub=
 No Matching Applications Found=
 
 ; Install Plugin title of openbox
-Install Plugin=
+Install Plugin=Instalar plugin
 
 ; Remove App from previously installed
-Delete Template=
-Yes, delete it=
+Delete Template=Apagar modelo
+Yes, delete it=Sim, apagar
 
 ; Uninstall popup
-Uninstall Application=
-Yes uninstall it=
+Uninstall Application=Desinstalar aplicação
+Yes uninstall it=Sim, desinstalar
 
 ; Remove Private Application
-Remove Private Application=
-Yes, remove it=
+Remove Private Application=Remover aplicação privada
+Yes, remove it=Sim, remover
 
 ; App Pinning
 Click to pin this application=
@@ -90,33 +90,33 @@ This plugin has a duplicated name from another plugin %s This will impact your a
 
 ; CA Sections Keep the length reasonable
 MENU=
-Installed Apps=
+Installed Apps=Aplicações instaladas
 Previous Apps=
 Pinned Apps=
-CATEGORIES=
-New Apps=
-Updated Apps=
-Random Apps=
+CATEGORIES=CATEGORIAS
+New Apps=Novas Aplicações
+Updated Apps=Aplicações atualizadas
+Random Apps=Aplicações aleatórias
 Top New Installs=
 Trending Apps=
-All Apps=
-OTHER=
-Statistics=
-Credits=
-Support=
-VERSION=
+All Apps=Todas as aplicações
+OTHER=OUTRO
+Statistics=Estatísticas
+Credits=Créditos
+Support=Suporte
+VERSION=VERSÃO
 Change Log=
 
 ; Credits
-Development=
-Additional Contributions=
+Development=Desenvolvimento
+Additional Contributions=Contribuições adicionais
 GUI Layout Design=
 Application Feed=
 Additional Testing=
-Moderation=
+Moderation=Moderação
 Additional Libraries=
-Copyright=
-Translation=
+Copyright=Direitos de autor
+Translation=Tradução
 
 ; Statistics page
 Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=
@@ -125,24 +125,24 @@ While highly not recommended to do, incompatible applications can be installed b
 This display is informational ONLY=
 unknown=
 Last Change To Application Feed=
-Number Of Docker Applications=
+Number Of Docker Applications=Número de aplicações docker
 Number Of Plugin Applications=
-Number Of Templates=
-Number Of Repositories=
-Number Of Private Docker Applications=
-Number Of Invalid Templates=
+Number Of Templates=Número de modelos
+Number Of Repositories=Número de repositórios
+Number Of Private Docker Applications=Número de aplicações docker privadas
+Number Of Invalid Templates=Número de modelos inválidos
 Number Of Template Errors=
 Number Of Blacklisted Apps=
-Number Of Incompatible Applications=
-Number Of Deprecated Applications=
+Number Of Incompatible Applications=Número de aplicações incompatíveis
+Number Of Deprecated Applications=Número de aplicações descontinuadas
 Number Of Moderation Entries=
-Primary Server=
-Backup Server=
+Primary Server=Servidor primário
+Backup Server=Servidor de backup
 
 ; Statistics Popup Titles
-Repository List=
+Repository List=Lista de repositório
 All Invalid Templates Found=
-Template Errors=
+Template Errors=Erros de modelo
 All Moderation Entries=
 
 ; Statistics Popup
@@ -151,7 +151,7 @@ These templates are invalid and the application they are referring to is unknown
 No templates were automatically fixed=
 All of these errors found have been fixed automatically=
 Note that many of these errors can be avoided by following the directions=
-HERE=
+HERE=AQUI
 The following plugins have duplicated filenames and are not able to be installed simultaneously=
 The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=
 If any of these entries are incorrect then contact the moderators of CA to discuss=
@@ -164,34 +164,34 @@ Community Applications Changelog=
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
-Backup=
-Cloud=
+Backup=Cópia de segurança
+Cloud=Núvem
 Downloaders=
-Game Servers=
+Game Servers=Servidores de jogo
 Home Automation=
-Media Applications=
-Books=
-Music=
-Photos=
-Video=
-Other=
-Media Servers=
-Network Services=
-DNS=
-FTP=
-Management=
+Media Applications=Aplicações de mídia
+Books=Livros
+Music=Música
+Photos=Fotografias
+Video=Vídeo
+Other=Outros
+Media Servers=Servidores de mídia
+Network Services=Serviços de rede
+DNS=DNS
+FTP=FTP
+Management=Gestão
 Messenger=
-Proxy=
-VOIP=
-VPN=
-Web=
-Productivity=
-Security=
+Proxy=Proxy
+VOIP=VOIP
+VPN=VPN
+Web=Web
+Productivity=Produtividade
+Security=Segurança
 Tools Utilities=Tools / Utilities
-System=
-Themes=
+System=Sistema
+Themes=Temas
 Utilities=
-Private Apps=
+Private Apps=Aplicações privadas
 Uncategorized=
 
 ; Categories displayed within a popup or on the card
@@ -226,21 +226,21 @@ OtherUncategorized=Other:Uncategorized
 and %s more=
 
 ; App Popup Related
-Donate To Author=
+Donate To Author=Doar ao autor
 Donate To Maintainer=
-Author=
+Author=Autor
 Maintainer=
-DockerHub=
-Application Template=
-Base OS=
+DockerHub=DockerHub
+Application Template=Modelo de aplicação
+Base OS=OS Base
 DockerHub Stars=
 Added to CA=
 Date Updated=
 Current Version=
 Minimum OS=
 Max OS=
-Total Downloads=
-Licence=
+Total Downloads=Total de transferências
+Licence=Licença
 30 Day Trend=
 Ranked #%s=
 ; as in Trending up or down arrow
@@ -252,16 +252,16 @@ This application template has been deprecated=This application / template has be
 This application is not compatible with your version of Unraid=
 Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
 Reinstall default=Reinstall (default)
-WebUI=
-Reinstall=
-Install=
-Project=
+WebUI=Interface web
+Reinstall=Reinstalar
+Install=Instalar
+Project=Projeto
 Install Using The Templates Default Tag=Install Using The Template's Default Tag
 Moderator Comments=Moderator Comments:
 Note not all authors keep up to date on change logs=
 Note not all maintainers keep up to date on change logs=
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
-Donate=
+Donate=Doar
 Currently Installed Version=
 Install The Update=
 ; as in you have the latest version already installed
@@ -284,17 +284,17 @@ Docker Application Installation finished=
 
 ; Application Cards
 Private dockerHub Conversion=Private (dockerHub Conversion)
-Go to the project page=
+Go to the project page=Ir para a página do projeto
 Go to the support thread=
-Uninstall Application=
-Remove Private Application=
-Remove Application From List=
+Uninstall Application=Desinstalar aplicação
+Remove Private Application=Remover aplicação privada
+Remove Application From List=Remover aplicação da lista
 Check off to select multiple reinstalls=
 Go to the plugin settings=
-Click to reinstall the application using default values=
+Click to reinstall the application using default values=Clicar para reinstalar aplicação usando os valores padrão
 Click to edit the application values=
-Click to reinstall=
-Click to install=
+Click to reinstall=Clicar para reinstalar
+Click to install=Clicar para instalar
 Install plugin=
 Click to go to the WebUI=
 This application has been marked as being Beta=
@@ -312,13 +312,13 @@ Search for similar containers=
 Displaying %s - %s of %s=Displaying %1$s - %2$s (of %3$s)
 
 Updating Content=
-Language=
-Switch to this language=
-Country Code=
-Install Language Pack=
-Remove Language Pack=
-Update Language Pack=
-Installed Version=
+Language=Idioma
+Switch to this language=Mudar para este idioma
+Country Code=Código do país
+Install Language Pack=Instalar pack de idioma
+Remove Language Pack=Remover pack de idioma
+Update Language Pack=Atualizar pack de idioma
+Installed Version=Versão instalada
 A note about translations=
 
 ; Help Text
