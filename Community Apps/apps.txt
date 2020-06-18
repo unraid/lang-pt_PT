@@ -3,7 +3,7 @@ translationCredit=<Author> (<Language>)
 Cancel=Cancelar
 
 ; My PSAs / banners
-Happy New Year=Feliz ano noso
+Happy New Year=Feliz ano novo
 Happy Holidays from Andrew, Tracey, and family=
 Please Enjoy Responsibly=
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
@@ -14,8 +14,8 @@ Backup Server Active Some icons may not appear, and plugin installations may be 
 ; Sorting Options
 Sorting options=Opções de ordenação
 Sorting options unavailable=Opções de ordenação indisponível
-Sort By Name Ascending=Ordenar por nome ascendente
-Sort By Name Descending=Ordenar por nome descendente
+Sort By Name Ascending=Ordenar por nome (ascendente)
+Sort By Name Descending=Ordenar por nome (descendente)
 Sort By Downloads=Ordenar por transferências
 Sort By Trend=
 Sort By Date Added=
