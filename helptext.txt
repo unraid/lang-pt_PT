@@ -140,7 +140,7 @@ principal quando o array está parado. Cada disco do array tem o seu próprio me
 dispositivos não atribuídos. Para a tribuir um dispositivo basta seleccioná-lo da lista. Cada vez que se atrbui
 um novo dispositivo, o sistem actualiza um ficheiro de configuração para guardar a atribuição.
 
-#### Requirements
+#### Requisitos
 
 Ao contrário dos sistemas RAID tradicionais que armazenam dados em todos os dispositivos do array, um servidor unRaid
 guarda os ficheiros em discos rígidos individuais. Consequentemente, todoas as operações de escrita de ficheiros envolverão
@@ -201,21 +201,21 @@ para o que constitui uma palavra-passe *segura*.
 
 #### Keyfile
 
-Select a local keyfile with a stored encryption key or a binary file. The maximum size of the keyfile is 8M (8388608 byte).
+Seleccione uma keyfile local com uma chave de encriptação armazenada ou um ficheiro binário. O tamanho máximo da keyfile é de 8M (8388608 byte).
 
-**Backup** your local keyfile. **IF LOST, ENCRYPTED CONTENT CANNOT BE RECOVERED!**
+Faça um **Backup** da sua keyfile local. **SE A PERDER, O CONTEÚDO ENCRIPTADO NÃO PODERÁ SER RECUPERADO!**
 :end
 
 :info_warning_temp_help:
-*Warning disk temperature* sets the warning threshold for this hard disk temperature. Exceeding this threshold will result in a warning notification.
+O *Limite de temperatura do disco aviso* define o limiar de aviso para esta temperatura do disco rígido. Passando este limite resulta numa mensagem de aviso.
 
-A value of zero will disable the warning threshold (including notifications).
+Um valor de zero desactivará o limite de alerta (incluindo as mensagens de aviso).
 :end
 
 :info_critical_temp_help:
-*Critical disk temperature* sets the critical threshold for this hard disk temperature. Exceeding this threshold will result in an alert notification.
+O *Limite de temperatura do disco crítico* define o limiar de crítico para esta temperatura do disco rígido. Passando este limite resulta numa mensagem de alerta.
 
-A value of zero will disable the critical threshold (including notifications).
+Um valor de zero desactivará o limite de alerta (incluindo as mensagens de aviso).
 :end
 
 :info_file_system_help:
