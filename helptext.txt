@@ -215,44 +215,44 @@ Um valor de zero desactivará o limite de alerta (incluindo as mensagens de avis
 :info_critical_temp_help:
 O *Limite de temperatura do disco crítico* define o limiar de crítico para esta temperatura do disco rígido. Passando este limite resulta numa mensagem de alerta.
 
-Um valor de zero desactivará o limite de alerta (incluindo as mensagens de aviso).
+Um valor de zero desactivará o limite de alerta crítico (incluindo as mensagens de aviso).
 :end
 
 :info_file_system_help:
-Enter the desired file system type.  Changing the file system type of a device will permit you to reformat
-that device using the new file system.  Be aware that **all existing data on the device will be lost**.
+Insira o tipo de sistema de arquivo desejado.  A alteração do tipo de sistema de ficheiros de um dispositivo permitirá reformatar
+esse dispositivo utilizando o novo sistema de ficheiros. Tenha em atenção que **todos os dados existentes no dispositivo serão perdidos***.
 :end
 
 :info_comments_help:
-This text will appear under the *Comments* column for the share in Windows Explorer.
-Enter anything you like, up to 256 characters.
+Este texto aparecerá sob a coluna *Comentários* para a partilha no Windows Explorer.
+Insira o que quiser, até 256 caracteres.
 :end
 
 :info_warning_utilization_help:
-*Warning disk utilization* sets the warning threshold for this hard disk utilization. Exceeding this threshold will result in a warning notification.
+O *Aviso de utilização de disco* define o limiar de aviso de utilização para este disco. Passando este limite resulta numa mensagem de aviso.
 
-When the warning threshold is set equal or greater than the critical threshold, there will be only critical notifications (warnings are not existing).
+Quando o limiar de alerta é estabelecido como igual ou superior ao limiar crítico, haverá apenas notificações críticas (as mensagens de aviso não existem).
 
-A value of zero will disable the warning threshold (including notifications).
+Um valor de zero desactivará o limite de alerta (incluindo as mensagens de aviso).
 :end
 
 :info_critical_utilization_help:
-*Critical disk utilization* sets the critical threshold for this hard disk utilization. Exceeding this threshold will result in an alert notification.
+O *Aviso de utilização de disco crítico* define o limiar de aviso crítoco de utilização para este disco. Passando este limite resulta numa mensagem de alerta.
 
-A value of zero will disable the critical threshold (including notifications).
+Um valor de zero desactivará o limite de alerta crítico (incluindo as mensagens de aviso).
 :end
 
 :info_btrfs_balance_help:
-**Balance** will run the *btrfs balance* program to restripe the extents across all pool devices, for example,
-to convert the pool from raid1 to raid0 or vice-versa.
+**Balance** irá executar o programa *btrfs balance* para redistribuir os dados por todos os dispositivos do pool, por examplo,
+para converter o pool de raid1 para raid0 ou vice-versa.
 
-When a *full balance* is perfomred, it basically rewrites everything in the current filesystem.
+Quando se executa um *full balance*, basicamente todos os dados são re-escritos no sistema de ficheiros actual.
 
-A *mode conversion* affects the btrfs data extents; metadata always uses raid1 and is converted to raid1 if necessary by any balance operation.
+A *conversão de modo* affecta o método com o qual btrfs guarda os dados; os metadados sempre utilisarão raid1 e serão ocnvertidos para raid1 se for necessário por qualquer operação Balance.
 
-The run time is potentially very long, depending on the filesystem size and speed of the device.
+O tempo de execução poderá ser muito longo, dependendo do tamanho do sistema de ficheiros e da velocidade dos dispositivos.
 
-Unraid uses these default options when creating a multiple-device pool:
+Unraid utiliza estas opções por defeito ao criar um pool de múltiplos dispositivos::
 
 `-dconvert=raid1 -mconvert=raid1`
 
