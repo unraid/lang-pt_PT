@@ -47,7 +47,7 @@ dos seus dispositivos.
 
 O Array tem de ser parado para se poder mudar as atribuições dos dispositivos do Array.
 
-Um Unraid array consiste em um ou dois discos de Paridade e vários discos de dados. Os discos 
+Um Unraid array consiste em um ou dois discos de Paridade e vários discos de dados. Os discos
 de dados são utilizados exclusivamente para armazenar dados dos utilizadores, e o(s) disco(s) de Paridade
 proporciona(m) a redundância necessária para recuperar de falhas no disco.
 
