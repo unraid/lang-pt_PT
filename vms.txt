@@ -60,6 +60,7 @@ name of mount tag inside vm=nome da etiqueta de montagem dentro da vm
 Name of virtual machine=Nome da máquina virtual
 Network Bridge=Ponte de rede
 Network MAC=Endereço físico (MAC)
+Network Model=
 No Virtual Machines installed=Sem Máquinas Virtuais instaladas
 None available=Nenhum disponivel
 Not enough free space, need at least=Não há espaço livre suficiente, é necessário pelo menos
