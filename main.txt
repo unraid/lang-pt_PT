@@ -67,6 +67,7 @@ Do not use user share names=Não utilizar nomes de partilha do utilizador
 Download SMART report=Descarregar relatório SMART
 Dual parity valid requires ALL disks in their original slots=*Dupla paridade* válida exige **TODOS** os discos nas suas posições originais
 Elapsed time=Tempo decorrido
+Enable user share assignment=
 encrypted=encriptado
 Encryption input=Tipo de chave de encriptação
 Encryption status=Estado de encriptação
