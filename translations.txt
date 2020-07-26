@@ -132,7 +132,6 @@ hr=hr
 HVM=HVM
 Identity=Identidade
 Inactive=Inativo
-<<<<<<< master
 Index of=Índice de
 Info=Info
 Install Key=Instalar Licença
