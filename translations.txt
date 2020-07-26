@@ -109,7 +109,6 @@ Flash Product=Modelo da pendrive
 Flash Vendor=Fabricante da pendrive
 FOLDER=PASTA
 folder=pasta
-<<<<<<< master
 Force lower=Forçar minúsculas
 Format=Formatar
 Formatting devices=A formatar dispositivos
