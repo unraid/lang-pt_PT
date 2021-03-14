@@ -27,3 +27,6 @@ Uninstall=Desinstalar
 Update All Plugins=Atualizar todos os plugins
 Upgrade=Upgrade
 View Release Notes=Ver Notas de Versão
+
+; New entries - 2021-03-14
+No plugins installed=
