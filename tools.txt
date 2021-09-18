@@ -103,7 +103,6 @@ This will update folder file permissions=Isto irá atualizar as permissões dos 
 Time=Hora
 To install a registration key, paste the key file URL in the box below and click Install Key=Para instalar uma licença, colar o URL do ficheiro de licença na caixa abaixo e clicar em **Instalar licença**
 to select your language=para selecionar o seu idioma
-To support more storage devices as your server grows, click Upgrade Key below=Para suportar mais dispositivos de armazenamento à medida que o seu servidor cresce, clique em *Upgrade de Licença* abaixo
 Trial key expires on=Chave de ***Avaliação*** expira em
 Trial=Avaliação
 Update OS=Atualizar SO
