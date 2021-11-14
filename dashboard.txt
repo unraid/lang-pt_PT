@@ -1,4 +1,9 @@
+%s ago=
 %s used of %s %s %%=%s usado de %s (%s %%)
+10 s=
+30 s=
+1 m=
+2 m=
 Active tunnels=Túneis ativos
 Activity=Atividade
 ago=atrás
@@ -7,6 +12,7 @@ All Apps=Todas as Apps
 All VMs=Todas as VMs
 Battery charge=Nível de bateria
 BIOS dated=Data da BIOS
+Click to toggle CPU chart=
 Click to toggle details=Clique para alternar os detalhes
 Completed=Completado
 Counters info=Informação dos contadores
@@ -53,6 +59,7 @@ Last check incomplete on %s=Última verificação incompleta em **%s**
 Last checked on %s=Última verificação em **%s**
 Maximum size=Capacidade máxima
 Mode of operation=Modo de operação
+Network traffic=
 Next check scheduled on %s=Próxima verificação programada em **%s**
 No docker containers defined=Não há contentores docker definidos
 No running docker containers=Não há contentores docker em funcionamento
@@ -61,6 +68,7 @@ No shares present=Não existem partilhas
 No virtual machines defined=Nenhuma máquina virtual definida
 Nominal power=Potência nominal
 not received=não recebido
+Only PNG images are allowed=Only PNG images are allowed!
 Outbound=Saída
 Overall Load=Carga Global
 Parity disk not present=Disco de paridade não presente
@@ -75,16 +83,19 @@ Received packets=Pacotes recebidos
 Runtime left=Autonomia restante
 Scheduled parity check is disabled=A verificação de paridade agendada está desativada
 Select Case Model=Escolher Modelo da Caixa
+Select time frame=
 Share count %s with %s cache only and %s encrypted=Número de partilhas: %s com %s apenas cache e %s encriptada(s)
 Show details=Mostrar detalhes
 Show Information=Mostrar Informação
 Shutdown the system=Desligar o sistema
 SMART error=Erro de SMART
+SMART health-check failed=
 SMART=SMART
 sn=nº/s
 Start the array=Iniciar o array
 Started only=Apenas iniciados
 Stop the array=Parar o array
+Temp=
 This will put the system to sleep=Isto irá colocar o sistema em suspensão
 This will reboot the system=Isto irá reiniciar o sistema
 This will shutdown the system=Isto irá desligar o sistema
@@ -100,21 +111,4 @@ utilization warning=Aviso de utilização
 View Running Processes=Ver Processos em Execução
 Virtual Machines=Máquinas Virtuais
 
-; New entries (3) - 2021-05-08
-%s ago=
-Only PNG images are allowed=Only PNG images are allowed!
-Temp=
-
-; New entries (1) - 2021-05-15
-SMART health-check failed=
-
-; New entries (2) - 2021-05-20
-Click to toggle CPU chart=
-Network traffic=
-
-; New entries (5) - 2021-05-31
-10 s=
-30 s=
-1 m=
-2 m=
-Select time frame=
+; Note: November 14, 2021 - 10 missing translations

@@ -2,6 +2,7 @@ Access Mode=Modo de Acesso
 Add another Path, Port, Variable, Label or Device=Adicionar outro Caminho, Porta, Variável, Etiqueta ou Dispositivo
 Add Configuration=Adicionar Configuração
 Add=Adicionar
+Additional Requirements=
 Always=Sempre
 App to Host=Montados na App
 Application=Aplicação
@@ -29,6 +30,7 @@ Container=Contentor
 CPU Memory load=Utilização da CPU e Memória
 CPU Pinning=Fixação da CPU
 Created=Criado
+Crypto Currency=
 Default Value=Valor Padrão
 Device=Dispositivo
 Display=Mostrar
@@ -37,6 +39,7 @@ Docker Containers=
 Docker Hub URL=URL do DockerHub
 Docker Service failed to start=Não foi possível iniciar o Serviço Docker
 Downloaders=Gestor de transferências
+Drivers=
 Edit Configuration=Editar Configuração
 Exited=Terminado
 Extra Parameters=Parâmetros Extra
@@ -64,6 +67,7 @@ Missing parameters=Faltam parámetros
 Music=Música
 Network Type=Tipo de Rede
 No Docker containers installed=Nenhum contentor Docker instalado
+None Listed=
 of=de
 orphan image=imagem órfã
 Other=Outros
@@ -79,6 +83,7 @@ Productivity=Produtividade
 Project Page=Página do Projeto
 Proxy=Proxy
 Pulling image=Obtendo imagem
+Read Me First=
 Read Only - Shared=Apenas de Leitura - Partilhado
 Read Only - Slave=Apenas de Leitura - Escravo
 Read Only=Apenas de Leitura
@@ -91,6 +96,7 @@ Removing container=Eliminando contentor
 Removing orphan image=Eliminado imagem órfã
 Repository=Repositório
 Required=Obrigatório
+Reset sorting=
 Resume All=Resumir Todos
 Save=Guardar
 Select a template=Escolher um modelo
@@ -111,6 +117,7 @@ Template=Modelo
 The command failed=O comando falhou
 The command finished successfully=O comando concluiu com sucesso
 TOTAL DATA PULLED=TOTAL DE DADOS DESCARREGADOS
+Total size=
 Unknown action=Acão desconhecida
 Update All=Atualizar Todos
 update ready=Atualização pronta
@@ -125,17 +132,4 @@ Web=Web
 WebUI=Interface Web
 Writable=Gravável
 
-; New entries (4) - 2021-05-08
-Drivers=
-Reset sorting=
-Total size=
-
-; New entries (1) - 2021-06-12
-Crypto Currency=
-
-; New entries (2) - 2021-09-18
-Additional Requirements=
-None Listed=
-
-; New entries (1) - 2021-11-07
-Read Me First=
+; Note: November 14, 2021 - 8 missing translations
