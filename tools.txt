@@ -160,7 +160,8 @@ Your system has booted with the PCIe ACS Override setting enabled=O seu sistema 
 Esta utilidade é utilizada para fins de resolução de problemas. Recolherá toda a informação do sistema e ficheiros de configuração, e agrupará estes ficheiros num único ficheiro ZIP que pode ser guardado localmente.
 Subsequentemente, este ficheiro pode ser incluído na sua correspondência com a Limetech ou no fórum Unraid.
 
-Isto ajudará outros a obter rapidamente informação detalhada do seu sistema e a fornecer um melhor apoio ao seu problema. As seguintes informações e ficheiros de configuração são recolhidos::end
+Isto ajudará outros a obter rapidamente informação detalhada do seu sistema e a fornecer um melhor apoio ao seu problema. As seguintes informações e ficheiros de configuração são recolhidos:
+:end
 
 :diagnostics_2_plug:
 + */config*
@@ -190,7 +191,8 @@ Clicando em **Descarregar** iniciará o processo de recolha e depois instruirá 
 *Note que plugins de terceiros **podem*** ou não podem armazenar informações pessoais em ficheiros de configuração e/ou no output específico de plugins
 para o registo do sistema.*
 
-*Utilizar* **Anonimizar diagnósticos** *no momento da publicação do ficheiro de diagnóstico no fórum público. Na comunicação privada com a Limetech é recomendado desmarcar esta configuração e capturar toda a informação sem alterações.*:end
+*Utilizar* **Anonimizar diagnósticos** *no momento da publicação do ficheiro de diagnóstico no fórum público. Na comunicação privada com a Limetech é recomendado desmarcar esta configuração e capturar toda a informação sem alterações.*
+:end
 
 :newconfig_plug:
 Esta é uma utilidade para repor a configuração de discos do array de modo a que todos os discos apareçam como "Novos" discos, como
@@ -202,7 +204,8 @@ nova configuração.
 Use a seleção *'Preservar as posições atuais'* para preencher as posições de disco desejadas ***após*** o array ser reposto. Por defeito **nenhuma** posição de disco é preenchida.
 
 ** NÃO UTILIZAR ESTA UTILIDADE PENSANDO QUE IRÁ RESCONTRUIR UM DISCO FALHADO** - terá o efeito
-oposto tornando ***impossível**** reconstruir uma unidade falhada existente - foi avisado!:end
+oposto tornando ***impossível**** reconstruir uma unidade falhada existente - foi avisado!
+:end
 
 :newperms_1_plug:
 Esta é uma ação obrigatória a ser executada uma única vez após a atualização de uma versão do SO Unraid anterior a 5.0 para v5 ou uma versão posterior.
@@ -261,7 +264,8 @@ Nesse momento, pode adquirir uma licença, ou solicitar uma extensão da *Avalia
 :registration_4_plug:
 Para continuar a utilizar o SO Unraid, pode adquirir uma licença. Em alternativa, pode solicitar uma extensão da licença de *Avaliação*.
 
-A maioria dos pedidos de extensão da *Avaliação* são processados imediatamente, mas por favor permitir até um dia útil para receber a extensão da licença de *Avaliação*.:end
+A maioria dos pedidos de extensão da *Avaliação* são processados imediatamente, mas por favor permitir até um dia útil para receber a extensão da licença de *Avaliação*.
+:end
 
 :registration_5_plug:
 Não é possível utilizar uma licença de *Avaliação* com uma instalação do SO Unraid existente.
@@ -283,7 +287,8 @@ Se esta foi uma instalação de *Avaliação*, pode adquirir uma licença.
 :registration_7_plug:
 Instalações de *Avaliação* só são válidas com a Pen drive USB originalmente registada.
 
-Para continuar a utilizar esta instalação com esta Pen drive USB, pode adquirir uma licença.:end
+Para continuar a utilizar esta instalação com esta Pen drive USB, pode adquirir uma licença.
+:end
 
 :registration_8_plug:
 O ficheiro da licença não corresponde à Pen drive USB de arranque.
