@@ -312,4 +312,4 @@ não é único (isto é comum com os leitores de cartões USB).
 Para mais informações, por favor [Contactar o Suporte].(https://lime-technology.com/contact).
 :end
 
-; Note: November 15, 2021 - 13 missing translations
+; Note: November 16, 2021 - 13 missing translations
