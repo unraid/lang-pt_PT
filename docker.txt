@@ -132,4 +132,4 @@ Web=Web
 WebUI=Interface Web
 Writable=Gravável
 
-; Note: November 18, 2021 - 8 missing translations
+; Note: February 8, 2022 - 8 missing translations
