@@ -67,6 +67,7 @@ Device is part of a pool=Dispositivo faz parte de um agrupamento
 Device locked unknown error=Dispositivo bloqueado erro desconhecido
 Device locked wrong encryption key=Dispositivo bloqueado: chave de encriptação errada
 Device to be encrypted=Dispositivo a ser encriptado
+Disable Spin down delay to run a SMART extended self-test=Disable **Spin down delay** to run a SMART extended self-test
 Disk in parity slot is not biggest=O disco na posição de paridade não é o maior
 Disk Log Information=Informação sobre o registo do Disco
 Disk-Clear in progress=
@@ -346,4 +347,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: February 21, 2022 - 52 missing translations
+; Note: February 25, 2022 - 53 missing translations
