@@ -113,6 +113,8 @@ Information=Informação
 Insufficient free disk space available=Espaço livre disponível em disco insuficiente
 Interrupted=Interrompido
 Invalid configuration=Configuração inválida
+invalid device=
+invalid devices=
 Invalid expansion=Expansão inválida
 Invalid pool name=Nome de agrupamento inválido
 Invalid, missing or expired=
@@ -348,4 +350,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: March 11, 2022 - 52 missing translations
+; Note: March 13, 2022 - 54 missing translations
