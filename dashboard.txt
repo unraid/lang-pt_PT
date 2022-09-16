@@ -70,6 +70,7 @@ Nominal power=Potência nominal
 not received=não recebido
 Only PNG images are allowed=Only PNG images are allowed!
 Outbound=Saída
+Output voltage=
 Overall Load=Carga Global
 Parity disk not present=Disco de paridade não presente
 Parity disks not present=Discos de paridade não presentes
@@ -111,4 +112,4 @@ utilization warning=Aviso de utilização
 View Running Processes=Ver Processos em Execução
 Virtual Machines=Máquinas Virtuais
 
-; Note: June 6, 2022 - 10 missing translations
+; Note: September 16, 2022 - 11 missing translations
