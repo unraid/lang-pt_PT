@@ -7,8 +7,8 @@ Always=Sempre
 App to Host=Montados na App
 Application=Aplicação
 apply update=aplicar atualização
-Array must be Started to view Docker containers=O array tem de estar **Iniciado** para ver os contentores Docker
 Are you sure=Tem a certeza
+Array must be Started to view Docker containers=O array tem de estar **Iniciado** para ver os contentores Docker
 Autostart=Arranque automático
 Back=Retroceder
 Backup=Backup
@@ -59,6 +59,7 @@ Icon URL=URL do ícone
 Image ID=ID da imagem
 Key=Licença
 Label=Etiqueta
+Lock sortable items=
 Management=Gestão
 MediaApp=AppMultimédia
 MediaServer=ServidorMultimédia
@@ -119,6 +120,7 @@ The command finished successfully=O comando concluiu com sucesso
 TOTAL DATA PULLED=TOTAL DE DADOS DESCARREGADOS
 Total size=
 Unknown action=Acão desconhecida
+Unlock sortable items=
 Update All=Atualizar Todos
 update ready=Atualização pronta
 Value=Valor
@@ -132,4 +134,4 @@ Web=Web
 WebUI=Interface Web
 Writable=Gravável
 
-; Note: June 6, 2022 - 8 missing translations
+; Note: March 17, 2023 - 10 missing translations

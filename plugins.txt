@@ -1,4 +1,5 @@
 %s An update is available=%s: Uma atualização está disponível
+Alert Message=
 anonymous=anônimo(a)
 Author=Autor
 Check For Updates=Verificar se há Atualizações
@@ -19,13 +20,14 @@ Next=Próximo
 No plugins installed=
 No release notes available=Não há notas de versão disponíveis
 No response, aborting=
-Plugin File=Ficheiro do Plugin
 Plugin File Install Errors=
+Plugin File=Ficheiro do Plugin
 Plugin History=
 Plugin Update Check=Procurar por atualização do plugin
 Plugin=Plugin
 Release Notes=Notas de Versão
 Remove Plugin=
+Remove Selected Plugins=
 remove=remover
 Select local plugin file=Selecionar ficheiro de plugin local
 Stable=Estável
@@ -37,4 +39,4 @@ Update Plugin=
 Upgrade=Upgrade
 View Release Notes=Ver Notas de Versão
 
-; Note: June 6, 2022 - 9 missing translations
+; Note: March 17, 2023 - 11 missing translations
