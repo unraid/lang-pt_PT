@@ -35,8 +35,9 @@ STALE=OBSOLETO
 Support Thread=Tópico de suporte no fórum
 Uninstall=Desinstalar
 Update All Plugins=Atualizar todos os plugins
+Update Incompatible=
 Update Plugin=
 Upgrade=Upgrade
 View Release Notes=Ver Notas de Versão
 
-; Note: March 17, 2023 - 11 missing translations
+; Note: April 11, 2023 - 12 missing translations

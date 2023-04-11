@@ -195,6 +195,8 @@ raidz3=
 Raw Value=Valor Bruto
 Raw View=Mode de Vista Bruto
 Read-Check in progress=Read-Check em curso
+Read errors corrected=
+Read errors detected=
 Reading=
 Reboot in safe mode=Reiniciar em modo de segurança
 Registration Key Manager=Gestor da chave de registo
@@ -373,4 +375,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: March 17, 2023 - 80 missing translations
+; Note: April 11, 2023 - 82 missing translations
