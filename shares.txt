@@ -72,4 +72,4 @@ User Shares=Partilhas do Utilizador
 Write=Escrever
 You cannot use the following within share names=Não é possível usar o seguinte como parte de nomes de partilha
 
-; Note: April 18, 2023 - 9 missing translations
+; Note: April 18, 2023 - 8 missing translations
