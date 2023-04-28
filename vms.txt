@@ -133,7 +133,7 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, distribuições Linux mais recentes
 XML View=Vista XML
 
-; Note: April 28, 2023 - 43 missing translations
+; Note: April 28, 2023 - 0 missing translations
 9p Mode=Modo 9p
 Boot Order=Ordem de Arranque
 Boot order=Ordem de arranque

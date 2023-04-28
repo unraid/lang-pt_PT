@@ -251,7 +251,7 @@ Nesse momento, pode adquirir uma licença, ou solicitar uma extensão da *Avalia
 :registration_4_plug:
 Para continuar a utilizar o SO Unraid, pode adquirir uma licença. Em alternativa, pode solicitar uma extensão da licença de *Avaliação*.
 
-A maioria dos pedidos de extensão da *Avaliação* são processados imediatamente, mas por favor permitir até um dia útil para receber a extensão da licença de *Avaliação*.
+A maioria dos pedidos de extensão da *Avaliação* são processados imediatamente, mas por favor permita até um dia útil para receber a extensão da licença de *Avaliação*.
 :end
 
 :registration_5_plug:
@@ -299,41 +299,41 @@ não é único (isto é comum com os leitores de cartões USB).
 Para mais informações, por favor [Contactar o Suporte].(https://lime-technology.com/contact).
 :end
 
-; Note: April 28, 2023 - 37 missing translations
-Alert Message=
-Alerts=
-All Categories=
-Array slots=
-Beta=
-Clear Log=
-Delete all notifications=
-Deprecated Only=
-Downloading=
-Error reporting level=
-Errors Only=
-Install Language=
-Log file cleared=
-Log size=
-LOG size=
-Next=
-No filter=
-No notifications present=
-Notices Only=
-Notices=
-PHP Info=
-PHP Information=
-PHP Log File=
-PHP Settings=
-please configure=
-Please provide diagnostics when experiencing problems=
-Pool slots=
-Post these in the forums=
-Show errors on screen=
-Stable=
-This will delete the selected notification files=
-Uploaded=
-VFIO-PCI Log=
-View Log=
-View VFIO-PCI Log=
-Warnings Only=
-Warnings=
+; Note: April 28, 2023 - 0 missing translations
+Alert Message=Mensagem de Alerta
+Alerts=Alertas
+All Categories=Todas as Categorias
+Array slots=Vagas do Array
+Beta=Beta
+Clear Log=Limpar Log
+Delete all notifications=Eliminar todas as notificações
+Deprecated Only=Apenas obsoletos
+Downloading=Transferencindo
+Error reporting level=Nivel de relatório de erros
+Errors Only=Apenas erros
+Install Language=Linguagem de instalação
+Log file cleared=Ficheiro de log limpo
+Log size=Tamanho de log
+LOG size=tamanho de LOG
+Next=Próximo
+No filter=Sem filtro
+No notifications present=Sem notificações presentes
+Notices Only=Apenas anúncios
+Notices=Anúncios
+PHP Info=Informação do PHP
+PHP Information=informação do PHP
+PHP Log File=Ficheiro de log do PHP
+PHP Settings=Definições do PHP
+please configure= por favor configure
+Please provide diagnostics when experiencing problems= Por favor forneça diagnósticos sempre que experenciar problemas
+Pool slots=Vagas da Pool
+Post these in the forums=Publique isto nos fóruns
+Show errors on screen=Mostrar erros no ecrã
+Stable=Estavél
+This will delete the selected notification files=Isto vai eliminar os ficheiros de notificação selecionados
+Uploaded=Carregado
+VFIO-PCI Log=Log VFIO-PCI
+View Log=Visualizar Log
+View VFIO-PCI Log=Visualizar VFIO-PCI
+Warnings Only=Apenas alertas
+Warnings=Alertas
