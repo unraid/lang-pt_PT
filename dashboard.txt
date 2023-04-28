@@ -61,7 +61,6 @@ No shares present=Não existem partilhas
 No virtual machines defined=Nenhuma máquina virtual definida
 Nominal power=Potência nominal
 not received=não recebido
-Only PNG images are allowed=Only PNG images are allowed!
 Outbound=Saída
 Overall Load=Carga Global
 Parity disk not present=Disco de paridade não presente
@@ -101,7 +100,7 @@ utilization warning=Aviso de utilização
 View Running Processes=Ver Processos em Execução
 Virtual Machines=Máquinas Virtuais
 
-; Note: April 28, 2023 - 41 missing translations
+; Note: April 29, 2023 - 42 missing translations
 %s ago=
 1 m=
 10 s=
@@ -126,6 +125,7 @@ Motherboard Information=
 Network traffic=
 Notices=
 Notifications=
+Only PNG images are allowed=Only PNG images are allowed!
 Output voltage=
 Parity Information=
 Pool=

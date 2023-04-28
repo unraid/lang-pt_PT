@@ -48,7 +48,6 @@ Yes=Sim
 Array Starting=Iniciando Array
 Array Stopping=Parando Array
 Mounting disks=Montando discos
-Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Ativando todos os discos
 Starting services=Iniciando serviços
 Stopping services=Parando serviços
@@ -59,11 +58,12 @@ Opening encrypted volumes=Abrindo volumes encriptados
 
 ; docker variables
 
-; Note: April 28, 2023 - 13 missing translations
+; Note: April 29, 2023 - 14 missing translations
 Donate=
 Read Me First=
 Array Copying=
 Array Clearing=
+Retry unmounting user shares=Retry unmounting user share(s)
 Stale configuration=
 Starting Recycle Bin=
 Stopping Recycle Bin=
