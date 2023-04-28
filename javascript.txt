@@ -9,7 +9,6 @@ day=dia
 days=dias
 disk image and definition=imagem e definição do disco
 Disks=Discos
-Donate=
 Done=Feito
 Edit=Editar
 Execution error=Erro de execução
@@ -25,7 +24,6 @@ Ok=Ok
 Pause=Pausar
 Proceed=Continuar
 Project Page=Página do Projeto
-Read Me First=
 Remove container=Eliminar contentor
 Remove definition=Eliminar definição
 Remove image=Eliminar imagem
@@ -47,29 +45,31 @@ Yes, update it=Sim, atualize-o!
 Yes=Sim
 
 ; footer messages
-Array Copying=
-Array Clearing=
 Array Starting=Iniciando Array
 Array Stopping=Parando Array
 Mounting disks=Montando discos
 Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Ativando todos os discos
-Stale configuration=
 Starting services=Iniciando serviços
 Stopping services=Parando serviços
-Starting Recycle Bin=
-Stopping Recycle Bin=
-Sync filesystems=
 Unmounting disks=Desmontando discos
 Autostart disabled=Início automático desativado
 Missing encryption key=Falta chave de encriptação
 Opening encrypted volumes=Abrindo volumes encriptados
 
 ; docker variables
+
+; Note: April 28, 2023 - 13 missing translations
+Donate=
+Read Me First=
+Array Copying=
+Array Clearing=
+Stale configuration=
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Container Path=
 Container Port=
 Container Variable=
 Container Label=
 Container Device=
-
-; Note: June 11, 2022 - 13 missing translations
