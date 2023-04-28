@@ -39,7 +39,6 @@ next user share=Partilha de utilizador seguinte
 Only=Apenas
 Prefer=Prefere
 previous user share=Partilha de utilizador anterior
-Primary storage for new files and folders=Primary storage (for new files and folders)
 Read=Ler
 Recompute=Recalcular
 Rule=Regra
@@ -64,7 +63,7 @@ User Shares=Partilhas do Utilizador
 Write=Escrever
 You cannot use the following within share names=Não é possível usar o seguinte como parte de nomes de partilha
 
-; Note: April 28, 2023 - 16 missing translations
+; Note: April 29, 2023 - 17 missing translations
 Calculated free space value=
 Clean Up=
 CLEAN UP=
@@ -75,6 +74,7 @@ Mover transfers files from Secondary storage to Primary storage=
 No unused share configurations present=
 Not used=
 Primary storage %s=
+Primary storage for new files and folders=Primary storage (for new files and folders)
 Primary storage to Secondary storage=
 Remove unused share configurations=
 Removed share configurations=

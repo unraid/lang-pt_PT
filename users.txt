@@ -1,6 +1,5 @@
 Add User=Adicionar utilizador
 Add=Adicionar
-Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
 Click to select PNG file=Clicar para selecionar o ficheiro PNG
 Custom image=Imagem personalizada
 Description=Descrição
@@ -19,7 +18,6 @@ Use only lowercase letters, digits, underscores and dashes=Usar apenas letras mi
 User %s has been deleted=O utilizador %s foi excluído
 User name=Nome do utilizador
 
-; Note: April 28, 2023 - 0 missing translations
 Invalid Key=Chave inválida
 Management Access=Controlo de acesso
 No users are defined=Não existem utilizadores definidos
