@@ -18,12 +18,10 @@ Use only lowercase letters, digits, underscores and dashes=Usar apenas letras mi
 User %s has been deleted=O utilizador %s foi excluído
 User name=Nome do utilizador
 
-; Note: April 29, 2023 - 8 missing translations
-Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
-Invalid Key=
-Management Access=
-No users are defined=
-Save=
-Shares Access=
-SSH authorized keys=
-Syntax of the key is incorrect=
+Invalid Key=Chave inválida
+Management Access=Controlo de acesso
+No users are defined=Não existem utilizadores definidos
+Save=Guardar
+Shares Access=Acesso a partilhas
+SSH authorized keys=Chaves de SSH autorizadas
+Syntax of the key is incorrect=A sintaxe da chave está incorreta
