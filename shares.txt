@@ -11,6 +11,8 @@ Automatically split only the top level directory as required=Separar automaticam
 Automatically split only the top three directory levels as required=Separar automaticamente apenas as três primeiras pastas conforme necessário
 Automatically split only the top two directory levels as required=Separar automaticamente apenas as duas primeiras pastas conforme necessário
 Calculated free space value=
+Clean Up=
+CLEAN UP=
 Comments=Comentários
 Compute All=Calcular Todas
 Compute=Calcular
@@ -41,14 +43,19 @@ Mover transfers files from cache to array=Mover transfere ficheiros da cache par
 Mover transfers files from Primary storage to Secondary storage=
 Mover transfers files from Secondary storage to Primary storage=
 next user share=Partilha de utilizador seguinte
+No unused share configurations present=
 Not used=
 Only=Apenas
 Prefer=Prefere
 previous user share=Partilha de utilizador anterior
 Primary storage for new files and folders=Primary storage (for new files and folders)
+Primary storage to Secondary storage=
 Read=Ler
 Recompute=Recalcular
+Remove unused share configurations=
+Removed share configurations=
 Rule=Regra
+Secondary storage to Primary storage=
 Secondary storage=
 Select cache pool=Selecionar agrupamento de cache
 Set when adding new share only=Configurado apenas ao criar uma nova partilha
@@ -72,4 +79,4 @@ User Shares=Partilhas do Utilizador
 Write=Escrever
 You cannot use the following within share names=Não é possível usar o seguinte como parte de nomes de partilha
 
-; Note: April 18, 2023 - 8 missing translations
+; Note: April 28, 2023 - 15 missing translations
