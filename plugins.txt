@@ -28,11 +28,12 @@ Update All Plugins=Atualizar todos os plugins
 Upgrade=Upgrade
 View Release Notes=Ver Notas de Versão
 
-; Note: April 28, 2023 - 12 missing translations
+; Note: July 9, 2023 - 13 missing translations
 Alert Message=
 Checking connectivity=
 checking=
 Delete Plugin=
+I have read the release notes=
 No plugins installed=
 No response, aborting=
 Plugin File Install Errors=

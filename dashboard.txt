@@ -100,7 +100,7 @@ utilization warning=Aviso de utilização
 View Running Processes=Ver Processos em Execução
 Virtual Machines=Máquinas Virtuais
 
-; Note: April 29, 2023 - 42 missing translations
+; Note: July 9, 2023 - 45 missing translations
 %s ago=
 1 m=
 10 s=
@@ -133,9 +133,12 @@ Power Status=
 Processor Information=
 Select time frame=
 Shares Information=
+ShowHide All Content=Show/Hide All Content
+ShowHide Content=Show/Hide Content
 SMART health-check failed=
 Temp=
 This may leave an unknown state=
+Tile Management=
 Unassigned Devices=
 Unlock sortable items=
 UPS Model=
