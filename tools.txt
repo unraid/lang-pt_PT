@@ -335,5 +335,21 @@ não é único (isto é comum com os leitores de cartões USB).
 Para mais informações, por favor [Contactar o Suporte].(https://lime-technology.com/contact).
 :end
 
-; Note: April 29, 2023 - 1 missing translations
+; Note: December 17, 2023 - 17 missing translations
+Creating Flash backup=
+Creation error=
+Delete Modprobe config=
+Downgrade OS=
+Driver=
+Edit Modprobe config=
+Flash backup=
+Insufficient free disk space available=
+Modprobed config file=Modprobe.d config file
+Rebuild Modules=
+Remove custom modprobed configuration=Remove custom modprobe.d configuration?
+Save Modprobe config=
+Select View=
+State=
+Support page=
+System Drivers=
 PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
