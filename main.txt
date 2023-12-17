@@ -191,7 +191,6 @@ Pool name already exists=Nome de agrupamento já esiste
 Pool of %s devices=Agrupamento de %s dispositivos
 Pool Status=
 Power=
-Power=
 Preclear in progress=Preclear em curso
 previous device=
 Printable Characters Only=Apenas caracteres imprimíveis
@@ -396,4 +395,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: December 17, 2023 - 115 missing translations
+; Note: December 17, 2023 - 112 missing translations
