@@ -167,7 +167,7 @@ Default appdata storage location=Local de armazenamento de appdata predefinido
 Default critical disk temperature threshold=Limiar de temperatura crítica do disco predefinida
 Default critical disk utilization threshold=Limiar de utilização crítica do disco predefinida
 Default critical SSD temperature threshold=
-Default file system=Sistema de ficheiros predefinido
+Default file system for Array disks=
 Default ISO storage path=Caminho de armazenamento predefinido para imagens ISO
 Default network bridge=Ponte de rede predefinida
 Default network source=
@@ -216,6 +216,7 @@ Docker LOG maximum file size=Tamanho máximo do registo de Docker
 Docker LOG number of files=Numero de ficheiros do registo de Docker
 Docker LOG rotation=Rotação do registo de Docker
 Docker only=Apenas Docker
+Docker PID Limit=
 Docker service=Serviço de Docker
 Docker Stop Timeout=
 Docker update notification=Notificação de atualização de Dockers
@@ -860,4 +861,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: December 25, 2023 - 355 missing translations
+; Note: December 8, 2024 - 357 missing translations
