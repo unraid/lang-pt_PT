@@ -11,7 +11,7 @@ This setting allows CA to periodically scan your system and alert you to the pre
 Support Thread=Tópico de Suporte
 
 ; Note: May 10, 2023 - 11 missing translations
-Allow install of second instance=
+Allow installation of multiple instances=
 Automatically open the sidebar=
 Allows CA to automatically open the sidebar for more information when hovering over an application's icon=
 Allow CA to check for updates to applications=
