@@ -124,14 +124,36 @@ Web=Web
 WebUI=Interface Web
 Writable=Gravável
 
-; Note: April 28, 2023 - 10 missing translations
+; Note: December 28, 2024 - 32 missing translations
+3rd Party=
 Additional Requirements=
+Addresses=
+available=
+Compose=
+Container IP=
+Container not running=
 Crypto Currency=
+DERP Relay=
 Docker Containers=
 Drivers=
+Error gathering Tailscale information from container=
+Exit Node=
+Expired RenewDisable key expiry=Expired! Renew/Disable key expiry!
+Hostname=
+Is Exit Node=
+Key Expiry=
+LAN IPPort=LAN IP:Port
 Lock sortable items=
 None Listed=
+Online=
+Please check the logs and refresh the page=
+Please check the logs=
 Read Me First=
+Real Hostname=
 Reset sorting=
+Routes=
+Tailscale=
 Total size=
 Unlock sortable items=
+update available=
+URL=
