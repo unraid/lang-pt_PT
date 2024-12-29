@@ -23,8 +23,8 @@ Check free space=
 checking=
 Click to toggle CPU chart=
 Click to toggle details=Clique para alternar os detalhes
-Clock is synchronized using NTP, time offset is %s %s=
-Clock is synchronized using PTP, time offset is %s %s=
+Clock is synchronized using %s NTP servers, time offset is %s %s=
+Clock is synchronized using %s PTP server, time offset is %s %s=
 Clock is unsynchronized with no NTP servers=
 Clock is unsynchronized with no PTP servers=
 Clock is unsynchronized, free-running clock=
@@ -74,6 +74,7 @@ Go to UPS settings=Ir para definições da UPS
 Go to User settings=Ir para definições do Utilizador
 Go to VM settings=Ir para definições de VM
 Go to VPN settings=Ir para definições de VPN
+grandmaster=
 Handshake=Handshake
 has=tem
 healthy=saudável
@@ -95,6 +96,7 @@ Last checked on %s=Última verificação em **%s**
 Legend=
 Lock sortable items=
 Log filesystem=
+master=
 Maximum size=Capacidade máxima
 Memory dump=
 Memory Utilization=
@@ -196,4 +198,4 @@ W=
 Warnings=
 ZFS=
 
-; Note: December 28, 2024 - 95 missing translations
+; Note: December 29, 2024 - 97 missing translations
