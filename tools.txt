@@ -335,7 +335,7 @@ não é único (isto é comum com os leitores de cartões USB).
 Para mais informações, por favor [Contactar o Suporte].(https://lime-technology.com/contact).
 :end
 
-; Note: December 17, 2023 - 17 missing translations
+; Note: April 21, 2025 - 18 missing translations
 Creating Flash backup=
 Creation error=
 Delete Modprobe config=
@@ -344,6 +344,7 @@ Driver=
 Edit Modprobe config=
 Flash backup=
 Insufficient free disk space available=
+Log Viewer new=Log Viewer (new)
 Modprobed config file=Modprobe.d config file
 Rebuild Modules=
 Remove custom modprobed configuration=Remove custom modprobe.d configuration?

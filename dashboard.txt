@@ -147,6 +147,7 @@ Select Case Model=Escolher Modelo da Caixa
 Select time frame=
 Services=
 Share count %s with %s cache only and %s encrypted=Número de partilhas: %s com %s apenas cache e %s encriptada(s)
+Share count %s with %s public SMB and %s public NFS=Share count: %s with %s public SMB and %s public NFS
 Shares Information=
 Show details=Mostrar detalhes
 Show Information=Mostrar Informação
@@ -198,4 +199,4 @@ W=
 Warnings=
 ZFS=
 
-; Note: December 29, 2024 - 97 missing translations
+; Note: April 21, 2025 - 98 missing translations

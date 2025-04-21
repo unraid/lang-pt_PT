@@ -148,6 +148,7 @@ Last checked on %s=Última verificação no(a) **%s**
 Last SMART test result=Último resultado do teste SMART
 logs - Separate Intent Log SLOG=logs - Separate Intent Log (SLOG)
 logs - ZFS Intent Log=
+loopback=
 Maintenance mode=Modo de manutenção
 Maintenance Mode=Modo de Manutenção
 Maintenance=Manutenção
@@ -175,6 +176,7 @@ No parity check history present=Não existe histórico de verificação de parid
 No self-tests logged on this disk=Nenhum autoteste registado neste disco
 Not installed=Não instalado
 Not present=
+not set=
 OK=OK
 Once copy completes, the array may be Started, to initiate Data-Rebuild of the disabled disk=Uma vez concluída a cópia, o array pode ser Iniciado, para iniciar a Reconstrução de Dados do disco desativado.
 operation=operação
@@ -234,6 +236,7 @@ Repair corrupted blocks=Reparar blocos corrompidos
 Replacement disk installed=Disco de substituição instalado
 Replacement disk is too small=O disco de substituição é demasiado pequeno
 Retype passphrase=Redigitar a senha
+Rx=
 Schedule=Agendar
 Scrub Status=Estado do Scrub
 Scrub=Scrub
@@ -300,6 +303,7 @@ Toggle readswrites display=Alternar visualização de leitura/escrita
 Too many attached devices Please consider upgrading your=Demasiados dispositivos ligados. Por favor considere a possibilidade de actualizar a sua
 Too many wrong andor missing disks=Demasiados discos incorretos e/ou em falta
 Total size=Capacidade total
+Tx=
 Unassign ALL devices to delete this pool=Desatribuir **TODOS** os dispositivos para eliminar este agrupamento
 Unassigned Devices=
 Unavailable - disk must be spun up=Não disponível - o disco deve estar ativo
@@ -413,4 +417,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: December 28, 2024 - 133 missing translations
+; Note: April 21, 2025 - 137 missing translations

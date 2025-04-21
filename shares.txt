@@ -63,7 +63,7 @@ User Shares=Partilhas do Utilizador
 Write=Escrever
 You cannot use the following within share names=Não é possível usar o seguinte como parte de nomes de partilha
 
-; Note: December 28, 2024 - 28 missing translations
+; Note: April 21, 2025 - 29 missing translations
 Clean Up=
 CLEAN UP=
 Exclusive access=
@@ -88,6 +88,7 @@ Share must be empty to be deleted=
 Share name contains invalid characters for ZFS use=
 Storage=
 There are no mountable array or pool disks - cannot add shares=
+There are no mounted array or pool disks - cannot add shares=
 This share is invalid=
 Unknown cache usage=
 Unknown protection status=

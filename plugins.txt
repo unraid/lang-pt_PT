@@ -28,8 +28,9 @@ Update All Plugins=Atualizar todos os plugins
 Upgrade=Upgrade
 View Release Notes=Ver Notas de Versão
 
-; Note: July 9, 2023 - 13 missing translations
+; Note: April 21, 2025 - 14 missing translations
 Alert Message=
+cannot check=
 Checking connectivity=
 checking=
 Delete Plugin=
