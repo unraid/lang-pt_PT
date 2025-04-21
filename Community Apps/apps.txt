@@ -133,14 +133,12 @@ Downloading docker icons=
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Instalação concluída se o botão FEITO não aparecer, terá de clicar no X vermelho no canto superior direito
 
 ; error messages
-No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=Nenhum dado foi devolvido É provável que outra sessão do navegador tenha reiniciado o seu servidor Recarregar este separador do navegador irá provavelmente corrigir este erro
 An error occurred Could not find any %s Apps=Ocorreu um erro Não foi possível encontrar qualquer %s Apps
 Download of appfeed failed=O download do appfeed falhou
 ; the %s here refers to a function being called
 Something really went wrong here=Algo correu mesmo mal aqui
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Publicar o conteúdo COMPLETO desta mensagem no Tópico de Apoio às Aplicações Comunitárias
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Aconteceu um erro desconhecido Por favor publique um screenshot no tópico de suporte do ecrã de Estatísticas
-Something really wrong happened Reloading the Apps tab will probably fix the problem=Aconteceu algo de muito errado Recarregar o separador Apps irá provavelmente resolver o problema
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Este plugin tem um nome duplicado de outro plugin %s Isto terá impacto na sua capacidade de instalar ambos os plugins simultaneamente
 You have been logged out=A sua sessão terminou
 Fatal Flash Drive Error=
@@ -161,6 +159,7 @@ Clear Flag=
 %s is incompatible with your OS version Either uninstall %s or update the OS=
 Browser failed to communicate with Unraid Server=
 For unknown reasons, your browser was unable to communicate with Community Applications running on your server=
+Additional information may be within Tools, PHPSettings - View Log=
 Attempt to Fix Via Reload Page=
 External Link=
 Clicking OK will take you to a 3rd party website not associated with Limetech=
@@ -460,4 +459,4 @@ An error occurred - Could not determine configuration=
 Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
 
 
-; Note: December 8, 2024 - 179 missing translations
+; Note: April 21, 2025 - 180 missing translations
