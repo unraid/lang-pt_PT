@@ -65,6 +65,7 @@ Language=Idioma
 Log file cleared=Ficheiro de log limpo
 Log size=Tamanho de log
 LOG size=tamanho de LOG
+Log Viewer new=Log Viewer (new)
 Missing Key File=Ficheiro de licença em falta
 Missing Language=Idioma em falta
 Network Settings=Definições de rede
@@ -335,7 +336,7 @@ não é único (isto é comum com os leitores de cartões USB).
 Para mais informações, por favor [Contactar o Suporte].(https://lime-technology.com/contact).
 :end
 
-; Note: April 21, 2025 - 18 missing translations
+; Note: May 31, 2025 - 17 missing translations
 Creating Flash backup=
 Creation error=
 Delete Modprobe config=
@@ -344,7 +345,6 @@ Driver=
 Edit Modprobe config=
 Flash backup=
 Insufficient free disk space available=
-Log Viewer new=Log Viewer (new)
 Modprobed config file=Modprobe.d config file
 Rebuild Modules=
 Remove custom modprobed configuration=Remove custom modprobe.d configuration?
